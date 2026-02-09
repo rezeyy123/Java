@@ -1,9 +1,9 @@
 public class MyClass {
   public static void main(String args[]) {
-float a=7.43f;
-float b=5.09f;
-float A=a*b;
+float m=2.5f;
+float b=-5.0f;
+float nullstelle=-b/m;
 
- System.out.println( "Der Flächeninhalt von a*b  = " + A);
+ System.out.println( "Die Nullstelle der linearen Funktion f(x) = " + m + "x + " + b + " ist: " + nullstelle);
   }
 }
