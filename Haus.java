@@ -6,17 +6,17 @@ public class Haus{
 
 	public static void main(String[] args){
 
-		Einfamilienhaus = new Haus();
+		Haus Einfamilienhaus = new Haus();
 
-		Reihenhaus  = new Haus();
+		Haus Reihenhaus  = new Haus();
 
-		Hochhaus  = new Haus();
+		Haus Hochhaus  = new Haus();
 
-		Villa  = new Haus();
+		Haus Villa  = new Haus();
 
-		Bungalow  = new Haus();
+		Haus Bungalow  = new Haus();
 
-		Doppelhaus  = new Haus();
+		Haus Doppelhaus  = new Haus();
 
 		Einfamilienhaus.stock1 = 4.0;
 
@@ -46,5 +46,13 @@ public class Haus{
 		System.out.println("Die Seite B von Einfamilienhaus :"+Einfamilienhaus.stock2);
 		System.out.println("Die Seite A von Reihenhaus :"+Reihenhaus.stock1);
 		System.out.println("Die Seite B von Reihenhaus :"+Reihenhaus.stock2);
+		System.out.println("Die Seite A von Hochhaus :"+Hochhaus.stock1);
+		System.out.println("Die Seite B von Hochhaus :"+Hochhaus.stock2);
+		System.out.println("Die Seite A von Villa :"+Villa.stock1);
+		System.out.println("Die Seite B von Villa :"+Villa.stock2);
+		System.out.println("Die Seite A von Doppelhaus :"+Doppelhaus.stock1);
+		System.out.println("Die Seite B von Doppelhaus :"+Doppelhaus.stock2);
+		System.out.println("Die Seite A von Bungalow :"+Bungalow.stock1);
+		System.out.println("Die Seite B von Bungalow :"+Bungalow.stock2);
 	}
 }
