@@ -1,15 +1,15 @@
-import java.util.Scanner;
 
 public class MyClass {
-public static void main(String args[]) {
-
-  Scanner sc = new Scanner(System.in);
-    System.out.print("Steigung m eingeben: ");
-    float m = sc.nextFloat();
-    System.out.print("y-Achsenabschnitt b eingeben: ");
-    float b = sc.nextFloat();
-    float nullstelle=-b/m;
-
-    System.out.println( "Die Nullstelle der linearen Funktion f(x) = " + m + "x + " + b + " ist: " + nullstelle);
+  public static void main(String args[]) {
+      int gesamt = 0;
+      int zahl = 1;
+      while (zahl < 100) {
+          int sum = zahl + (zahl + 1);
+          System.out.println(sum);
+          gesamt += sum;
+          zahl += 2;
+      }
+      System.out.println("Gesamtsumme: " + gesamt);
+  }
 }
-}
+
