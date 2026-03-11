@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class AufgabeA {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Grenzwert g eingeben: ");
+        int g = sc.nextInt();
+
+        double summe = 0;
+
+        for (int i = 1; i <= g; i++) {
+            summe += Math.pow(i, 2);
+        }
+
+        System.out.println("Summe: " + summe);
+        sc.close();
+    }
+}
