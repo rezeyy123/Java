@@ -2,6 +2,7 @@
 public class Ampel {
     public static void main(String[] args) {
         System.out.println("Geben Sie die Farbe der Ampel ein (rot, gelb, grün): ");
+        java.util.Scanner input = new java.util.Scanner(System.in);
         String ampelFarbe = input.nextLine();  
         
         switch (ampelFarbe.toLowerCase()) {
