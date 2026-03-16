@@ -3,8 +3,10 @@ public class TestIf {
         int zahl = 5;
         if (zahl > 0) {
             System.out.println("Die Zahl ist positiv.");
-        } else {
-            System.out.println("Die Zahl ist nicht positiv.");
+        } else if (zahl < 0) {
+            System.out.println("Die Zahl ist negativ.");
+        } else if (zahl == 0) {
+            System.out.println("Die Zahl ist null.");
         }
     }
 }
